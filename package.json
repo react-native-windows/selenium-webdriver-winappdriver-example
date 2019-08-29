@@ -1,0 +1,24 @@
+{
+  "name": "calculator_example",
+  "version": "1.0.0",
+  "description": "A example to use selenium-webdriver and WinAppDriver to do testing on calculator",
+  "main": "index.js",
+  "scripts": {
+    "appium": "appium",
+    "jest": "jest --maxWorkers=1"
+  },
+  "keywords": [],
+  "author": "Canhua Li",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "24.0.18",
+    "appium": "1.14.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "selenium-appium": "0.0.11",
+    "selenium-webdriver": "4.0.0-alpha.4"
+  }
+}
