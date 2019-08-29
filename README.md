@@ -13,5 +13,6 @@ An example of jest, selenium-webdriver and winappdriver integration
 - Download and Install [WinAppDriver v1.1 Release](https://github.com/Microsoft/WinAppDriver/releases)
 - Install packages
 ```yarn install```
+- Launch Appium. `yarn run appium`
 - Run the test. `yarn run jest`
 
