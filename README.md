@@ -16,3 +16,5 @@ An example of jest, selenium-webdriver and winappdriver integration
 - Launch Appium. `yarn run appium`
 - Run the test. `yarn run jest`
 
+## Note
+For more examples with azure pipeline, please refer to [winappdriver-js-webdriver-example](https://github.com/react-native-windows/winappdriver-js-webdriver-example)
