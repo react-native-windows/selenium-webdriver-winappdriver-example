@@ -17,4 +17,10 @@ An example of jest, selenium-webdriver and winappdriver integration
 - Run the test. `yarn run jest`
 
 ## Note
-For more examples with azure pipeline, please refer to [winappdriver-js-webdriver-example](https://github.com/react-native-windows/winappdriver-js-webdriver-example)
+To know more about how to integrate JavaScript test runner and WinAppDriver for UI automation, please refer to:
+- [E2E test](https://github.com/microsoft/react-native-windows/blob/master/vnext/docs/E2ETest.md) on React Native for Windows: [MoreAboutE2ETest.md](https://github.com/microsoft/react-native-windows/blob/master/vnext/docs/MoreAboutE2ETest.md)
+- [winappdriver-js-webdriver-example](https://github.com/react-native-windows/winappdriver-js-webdriver-example), Which includes examples to integrate WinAppDriver with WebDriverIO and selenium-webdriver.
+- [Choose the right E2E automation framework for React Native Windows](https://medium.com/@licanhua/choose-the-right-e2e-automation-framework-for-react-native-windows-83ade8b16b52)
+- [How to: Use Jest + selenium-webdriver + WinAppDriver to do Windows UI testing](https://medium.com/@licanhua/how-to-use-jest-selenium-webdriver-winappdriver-to-do-windows-ui-testing-c9d074e698ed)
+- [Automated Windows UI testing by Jest + selenium-appium + selenium-webdriver + WinAppDriver](https://medium.com/@licanhua/automated-windows-ui-testing-by-jest-selenium-appium-selenium-webdriver-winappdriver-6cb708121d71)
+- [Inspecting UI Elements for WinAppDriver automation using Appium Desktop](https://medium.com/@licanhua/inspecting-ui-elements-for-winappdriver-automation-using-appium-desktop-8f178b2d0d6c)
