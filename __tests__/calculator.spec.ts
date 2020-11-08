@@ -1,5 +1,5 @@
 import { By2 } from 'selenium-appium'
-import TestEnviroment from '../TestEnviroment'
+import TestEnvironment from '../TestEnvironment'
 
 const oneButton = By2.nativeName('One');
 const plusButton = By2.nativeName('Plus');
@@ -8,11 +8,11 @@ const equalButton = By2.nativeName('Equals');
 const calculatorResult = By2.nativeAccessibilityId('CalculatorResults');
 
 beforeAll(() => {
-    return TestEnviroment.setup();;
+    return TestEnvironment.setup();;
 })
 
 afterAll(() => {
-    return TestEnviroment.teardown();
+    return TestEnvironment.teardown();
 })
 
 describe('Calculator Test', () => {

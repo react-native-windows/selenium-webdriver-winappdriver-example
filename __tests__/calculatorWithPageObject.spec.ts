@@ -1,12 +1,12 @@
-import TestEnviroment from "../TestEnviroment";
+import TestEnvironment from "../TestEnvironment";
 import CalculatorPage from '../Pages/CalculatorPage'
 
 beforeAll(() => {
-    return TestEnviroment.setup();;
+    return TestEnvironment.setup();;
 })
 
 afterAll(() => {
-    return TestEnviroment.teardown();
+    return TestEnvironment.teardown();
 })
 
 describe('Use PageObject', () => {
