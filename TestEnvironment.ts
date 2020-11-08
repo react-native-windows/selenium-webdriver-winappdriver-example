@@ -2,7 +2,7 @@ import { driver, windowsAppDriverCapabilities } from 'selenium-appium'
 
 const appId = 'Microsoft.WindowsCalculator_8wekyb3d8bbwe!App'
 
-class TestEnviroment { 
+class TestEnvironment { 
   setup() {
     jest.setTimeout(60000);
     const capabilities = windowsAppDriverCapabilities(appId);
@@ -14,4 +14,4 @@ class TestEnviroment {
   }
 }
 
-export default new TestEnviroment();
+export default new TestEnvironment();
