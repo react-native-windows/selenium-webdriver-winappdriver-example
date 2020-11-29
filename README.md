@@ -9,15 +9,22 @@ An example of jest, selenium-webdriver and winappdriver integration
 1. Windows machine
 2. Nodejs and Yarn
 
-## Install WinAppDriver
-- Download and Install [WinAppDriver v1.1 Release](https://github.com/Microsoft/WinAppDriver/releases)
+## Install and run the test
 - Install packages
 ```yarn install```
-- Launch Appium. `yarn run appium`
+- Launch WinAppDriver or YWinAppDriver.
+
+`npx winappdriver` or `npx ywinappdriver`
+
+[WinAppDriver](https://github.com/microsoft/WinAppDriver) is supported by Microsoft.
+[YWinAppDriver](https://github.com/licanhua/YWinAppDriver) is an open source project which implemented WinAppDriver's functionality, and is developed by Canhua Li
+
 - Run the test. `yarn run jest`
 
 ## Note
 To know more about how to integrate JavaScript test runner and WinAppDriver for UI automation, please refer to:
+- [WinAppDriver + WebDriverIO example](https://github.com/licanhua/wdio-winappdriver-example). Example to demostrate WinAppDriver and WebDriver integration without appium dependency
+
 - [E2E test](https://github.com/microsoft/react-native-windows/blob/master/vnext/docs/E2ETest.md) on React Native for Windows. [MoreAboutE2ETest.md](https://github.com/microsoft/react-native-windows/blob/master/vnext/docs/MoreAboutE2ETest.md) provides some background why React Native Windows choose WinAppDriver and node test runner for E2E testing.
 
 - [winappdriver-js-webdriver-example](https://github.com/react-native-windows/winappdriver-js-webdriver-example), Which includes:
